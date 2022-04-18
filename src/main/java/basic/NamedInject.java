@@ -5,7 +5,7 @@ import bean.Tiger;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
-public class Inject2 {
+public class NamedInject {
     @Inject
     @Named("xxx")
     private Animal animal;

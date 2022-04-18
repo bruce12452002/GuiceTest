@@ -5,7 +5,7 @@ import bean.Ox;
 import bean.Rat;
 import com.google.inject.Inject;
 
-public class Inject1 {
+public class BasicInject {
     @Inject
     private Ox ox;
 
