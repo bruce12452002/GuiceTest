@@ -12,7 +12,7 @@ public class BasicInject {
     @Inject
     private Rat rat;
 
-    @Inject
+    @Inject // 如果有兩個以上的類別實作 Animal，會報錯，如果不想報錯，可加 optional = true，只不過值是 null
     private Animal animal;
 
 
